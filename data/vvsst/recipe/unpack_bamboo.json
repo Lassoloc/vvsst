@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:bamboo_blocks"
+    }
+  },
+  "result": {
+    "id": "minecraft:bamboo",
+    "count": 18
+  }
+}

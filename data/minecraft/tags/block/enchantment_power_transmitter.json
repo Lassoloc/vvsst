@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#minecraft:replaceable",
+    "#minecraft:all_signs",
+    "#minecraft:buttons",
+    "#minecraft:candles",
+    "#minecraft:climbable",
+    "#minecraft:corals",
+    "#minecraft:flower_pots",
+    "#minecraft:flowers",
+    "#minecraft:wool_carpets",
+    "#minecraft:wall_post_override",
+    "#minecraft:wall_corals",
+    "minecraft:lily_pad",
+    "minecraft:sculk_vein",
+    "minecraft:moss_carpet",
+    "minecraft:wall_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:small_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:large_amethyst_bud",
+    "minecraft:amethyst_cluster",
+    "minecraft:lever",
+    "minecraft:tripwire_hook"
+  ]
+}

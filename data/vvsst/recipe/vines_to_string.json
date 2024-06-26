@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "string",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "tag": "vvsst:vines"
+    }
+  },
+  "result": {
+    "id": "minecraft:string",
+    "count": 2
+  }
+}

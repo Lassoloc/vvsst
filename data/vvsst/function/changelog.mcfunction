@@ -1,0 +1,1 @@
+tellraw @p {"text":"VVSST: Click here to see the changelog","color":"aqua","bold":true,"underlined":true,"hoverEvent":{"action":"show_text","value":[{"text":"https://pastebin.com/7PPnQ3aw","color":"gray","italic":true}]},"clickEvent":{"action":"open_url","value":"https://pastebin.com/7PPnQ3aw"}}

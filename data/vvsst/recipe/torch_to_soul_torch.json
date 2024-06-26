@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "soul_torch",
+  "ingredients": [
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    [
+      {
+        "item": "minecraft:soul_soil"
+      },
+      {
+        "item": "minecraft:soul_sand"
+      }
+    ]
+  ],
+  "result": {
+    "id": "minecraft:soul_torch",
+    "count": 4
+  }
+}

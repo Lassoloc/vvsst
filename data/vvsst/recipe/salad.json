@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "result": {
+    "id": "minecraft:jigsaw",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 10997,
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.2,
+        "using_converts_to": {
+          "id": "minecraft:bowl"
+        }
+      },
+      "minecraft:item_name": "{\"text\":\"Salad\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"This item uses a custom sprite.\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
+      ]
+    }
+  }
+}

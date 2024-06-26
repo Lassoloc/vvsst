@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE",
+        "X#X",
+        "EEE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pig_spawn_egg"
+        },
+        "E": {
+            "item": "minecraft:iron_bars"
+        },
+        "X": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:spawner",
+        "count": 1
+    }
+}

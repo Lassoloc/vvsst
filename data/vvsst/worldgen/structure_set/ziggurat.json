@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "vvsst:ziggurat",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 94613883,
+    "spacing": 32,
+    "separation": 8
+  }
+}

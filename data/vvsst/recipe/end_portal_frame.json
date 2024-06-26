@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "EDE",
+        "EEE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_pearl"
+        },
+        "E": {
+            "item": "minecraft:end_stone"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_portal_frame",
+        "count": 12
+    }
+}

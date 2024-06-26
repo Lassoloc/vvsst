@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "ingredient": {
+    "item": "minecraft:soul_soil"
+  },
+  "result": {
+    "id": "minecraft:basalt"
+  }
+}

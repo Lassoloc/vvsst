@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE",
+        "X#X",
+        "EEE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lodestone"
+        },
+        "E": {
+            "item": "minecraft:porkchop"
+        },
+        "X": {
+            "item": "minecraft:experience_bottle"
+        }
+    },
+    "result": {
+        "item": "minecraft:pig_spawn_egg",
+        "count": 1
+    }
+}

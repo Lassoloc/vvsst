@@ -1,0 +1,1 @@
+effect give @a[gamemode=survival] glowing 180 0 true

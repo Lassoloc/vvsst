@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:magma_cream"
+  },
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "item": "minecraft:magma_cube_spawn_egg"
+  }
+}
