@@ -1,0 +1,11 @@
+jigsaw:
+
+10990 - nameless blade
+10991 - glaive
+10992 - backstabber
+10993 - tempest knife
+10994 - highland axe
+10995 - pride of the piglins
+10996 - twisting vine bow
+10997 - salad
+10998 - soul knife
