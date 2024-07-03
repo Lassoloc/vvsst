@@ -146,9 +146,11 @@ MOST RECENT CHANGES:
  - TODO: finish implementing MC:D rare weapons
  - slightly adjusted husk bonus drops
  - added life vest enchantment
+ - added incomplete emerald pickaxe loot item, currently unobtainable
 
 TO WATCH FOR:
  - mushroom hut stew ranges
 
 KNOWN BUGS:
  - haste potion components sometimes fail to apply. i have no idea why
+ - emerald pickaxe doesn't take durability damage

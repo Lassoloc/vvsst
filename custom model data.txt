@@ -9,3 +9,8 @@ jigsaw:
 10996 - twisting vine bow
 10997 - salad
 10998 - soul knife
+10999 - emerald pickaxe
+
+mushroom stem:
+
+10990 - pores
