@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "vvsst:void_hideout",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1226195924,
+    "locate_offset": [
+      -4,
+      0,
+      4
+    ],
+    "spacing": 24,
+    "separation": 4
+  }
+}
