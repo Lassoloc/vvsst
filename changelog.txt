@@ -104,7 +104,7 @@ STRUCTURE CHANGES:
  -- contains a chest with mushroom stew and other thematic items
  --- each mushroom stew has a 1/20 chance to instead be a suspicious stew, with four possible effects (two positive, two negative)
  - adds ziggurat temples in mangrove swamps
- -- generation is a bit fucky, parameters need some work (specifically to improve generating with empty space underneath and to prevent blocks inside from waterlogging)
+ -- generation is a bit fucky, parameters need some work (specifically to improve generating with empty space underneath)
  -- decor, loot table, and hazards (currently custom spawners) might need a revamp at some point but work for now
 
 NEW ITEMS:
@@ -147,6 +147,8 @@ MOST RECENT CHANGES:
  - slightly adjusted husk bonus drops
  - added life vest enchantment
  - added incomplete emerald pickaxe loot item, currently unobtainable
+ - added incomplete void hideout structure to the end. parameters may need adjustment and loot table isn't ready yet
+ - ziggurat no longer waterlogs blocks inside (thank you 1.21)
 
 TO WATCH FOR:
  - mushroom hut stew ranges
