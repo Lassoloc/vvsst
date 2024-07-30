@@ -141,13 +141,13 @@ MOST RECENT CHANGES:
  -- trial vaults can no longer drop tridents, now instead drop soul knife
  - salad no longer secretly beetroot soup
  - updated directories to 1.21 names, no longer supports 1.20.5
- - shields can now be enchanted in tables, with unbreaking and thorns (TODO: test more thoroughly)
+ - shields should now be enchantable with thorns on an anvil
  - added incomplete radiant enchantment (TODO: test)
  - TODO: finish implementing MC:D rare weapons
  - slightly adjusted husk bonus drops
  - added life vest enchantment
  - added incomplete emerald pickaxe loot item, currently unobtainable
- - added incomplete void hideout structure to the end. parameters may need adjustment and loot table isn't ready yet
+ - added incomplete void hideout structure to the end. parameters may need adjustment and loot table isn't perfect yet
  - ziggurat no longer waterlogs blocks inside (thank you 1.21)
 
 TO WATCH FOR:

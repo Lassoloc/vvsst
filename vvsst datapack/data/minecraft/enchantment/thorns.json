@@ -50,6 +50,6 @@
   "slots": [
     "any"
   ],
-  "supported_items": "#minecraft:enchantable/thorns_supported",
+  "supported_items": "#minecraft:enchantable/thorns_secondary",
   "weight": 1
 }
