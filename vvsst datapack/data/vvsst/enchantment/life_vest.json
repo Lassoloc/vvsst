@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Life Vest"
+    "translate": "enchantment.vvsst.life_vest",
+    "fallback": "Life Vest"
   },
   "supported_items": "#minecraft:enchantable/chest_armor",
   "primary_items": "#minecraft:enchantable/chest_armor",
