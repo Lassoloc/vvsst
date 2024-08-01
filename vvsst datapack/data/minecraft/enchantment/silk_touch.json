@@ -26,6 +26,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#vvsst:item/silkable",
+  "supported_items": "#vvsst:silkable",
   "weight": 1
 }
