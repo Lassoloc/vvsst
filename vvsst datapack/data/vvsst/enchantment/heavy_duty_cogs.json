@@ -1,0 +1,67 @@
+{
+  "description": {
+    "translate": "enchantment.vvsst.heavy_duty_cogs",
+    "fallback": "Heavy-Duty Cogs"
+  },
+  "exclusive_set": [
+    "minecraft:piercing",
+    "minecraft:multishot"
+  ],
+  "supported_items": "minecraft:crossbow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 128,
+    "per_level_above_first": 64
+  },
+  "max_cost": {
+    "base": 128,
+    "per_level_above_first": 64
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": {
+        "type": "minecraft:linear",
+        "base": 1.25,
+        "per_level_above_first": 0
+      }
+    },
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 7,
+            "per_level_above_first": 0
+          }
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.25,
+            "per_level_above_first": 0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  }
+}
