@@ -51,13 +51,13 @@
               "to_apply": "minecraft:absorption",
               "min_duration": {
                 "type": "minecraft:linear",
-                "base": 8,
-                "per_level_above_first": 1
+                "base": 18,
+                "per_level_above_first": 3
               },
               "max_duration": {
                 "type": "minecraft:linear",
-                "base": 15,
-                "per_level_above_first": 2
+                "base": 18,
+                "per_level_above_first": 6
               },
               "min_amplifier": 0,
               "max_amplifier": 0

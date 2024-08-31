@@ -15,7 +15,7 @@ FUNCTIONS:
 TAG CHANGES (doesn't include anything already listed in recipe changes):
  - the following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst buds and clusters
  - pink petals are replaceable (temp removed to fix a bug, but it didnt work anyways last i checked)
- - chiseled bookshelves now also provide benefit to enchantment tables
+ - chiseled bookshelves now also provide benefit to enchantment tables (temp removed)
 
 ENCHANTMENT CHANGES:
  - new enchantment life vest
