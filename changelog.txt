@@ -22,6 +22,8 @@ ENCHANTMENT CHANGES:
  -- only applies to chestplates
  -- chance to grant absorption after being hit
  - shields now accept thorns at an anvil
+ - shears now accept silk touch at an anvil
+
 RECIPE CHANGES:
 
  - convert back to bones and blaze rods from bonemeal and blaze powder
@@ -141,6 +143,7 @@ MOST RECENT CHANGES:
  - salad no longer secretly beetroot soup
  - updated directories to 1.21 names, no longer supports 1.20.5
  - shields should now be enchantable with thorns on an anvil
+ -- same for shears and silk touch
  - added incomplete radiant enchantment (TODO: test)
  - TODO: finish implementing MC:D rare weapons
  - slightly adjusted husk bonus drops
