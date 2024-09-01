@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "advancements.vvsst.thalassophobia.title",
+      "fallback": "Thalassophobia"
+    },
+    "description": {
+      "translate": "advancements.vvsst.thalassophobia.description",
+      "fallback": "Defeat three Elder Guardians",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:elder_guardian",
+                "value": {
+                  "min": 2,
+                  "max": 1023
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

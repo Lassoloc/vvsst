@@ -69,6 +69,10 @@ RECIPE CHANGES:
  --- rarer spawn eggs can drop from vexes, see loot table changes for more
  -- prices mean a base (pig) spawner requires netherite, and altering a spawner requires a totem
 
+ADVANCEMENT CHANGES:
+
+ - new advancement for killing 3 elder guardians
+
 LOOT TABLE CHANGES:
 
  - creepers will always drop 1 random leaves block
@@ -152,6 +156,7 @@ MOST RECENT CHANGES:
  - added incomplete void hideout structure to the end. parameters may need adjustment and loot table isn't perfect yet
  - ziggurat no longer waterlogs blocks inside (thank you 1.21)
  - ziggurat inner chambers revamped with more pots and a better trap
+ - added advancement for 3 elder guardian kills
 
 TO WATCH FOR:
  - mushroom hut stew ranges
