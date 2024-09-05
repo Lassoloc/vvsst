@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
+    "AAA",
     "ACA",
-    "ABA",
     "AAA"
   ],
   "key": {
     "A": {
       "item": "minecraft:glass_bottle"
-    },
-    "B": {
-      "item": "minecraft:ender_eye"
     },
     "C": {
       "item": "minecraft:echo_shard"

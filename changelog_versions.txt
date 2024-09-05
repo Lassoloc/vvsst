@@ -1,1 +1,88 @@
+== VVSST changelog between versions ==
+For more details, read the changelog as compared to unmodified vanilla.
 
+v0.1.0 (09/04/2024):
+ - Started actually keeping version numbers. The pack has existed for a long time before this but I never kept a changelog between versions
+ - Split changelog and updated function to link to both documents
+ - Adjusted the recipe for experience bottles
+
+Changes prior to v0.1.0:
+ - MC version: 1.21
+ - FUNCTIONS:
+ -- reveal_new_recipes: gives all players all new recipes
+ -- changelog: posts a link to the changelog in chat
+ - TAGS:
+ -- Doesn't block off bookshelves from enchantment table: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, all carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals
+ - ENCHANTMENTS:
+ -- Shields accept Thorns at an anvil
+ -- Shears accept Silk Touch at an anvil
+ -- New enchantment Life Vest for chestplates: chance to grant absorption after being hit
+ - RECIPES:
+ -- Bonemeal back to bones
+ -- Blaze powder back to blaze rods
+ -- Craftable mushroom blocks and stems
+ -- Craftable calcite
+ -- Craftable cobwebs
+ -- Nether roots and sprouts make red/cyan dye
+ -- Nether wart blocks convertable to warped wart blocks
+ -- Craftable grass blocks, mycelium, podzol, and nylium
+ -- Craftable crying obsidian
+ -- Craftable enchanted apples
+ -- Craftable bottles o' enchanting
+ -- Alternative recipe for spectral arrows using glow berries
+ -- Honeycomb smelts to yellow dye
+ -- Lever recipe outputs 3
+ -- All button recipes output 8
+ -- Mangrove roots can make mangrove wood
+ -- Smooth quartz can be smelted/blasted into iron nuggets and high XP yields
+ -- Prismarine smelts into dark prismarine
+ -- Smoker accepts chorus fruit
+ -- Soul sand/soil can convert between each other
+ -- Soul soil smelts to basalt
+ -- Torches and lanterns can be turned into soul versions after the fact
+ -- Craftable totems of undying
+ -- Alternate blast furnace recipe with tuff
+ -- Blue ice, packed ice, melon blocks, quartz blocks, honeycomb blocks, bamboo blocks (in pairs), and wool are unpackable
+ -- Craftable string with vines of any type
+ -- Many more types of stone can be used to make stone tools: raw stone, raw deepslate, granite, diorite, andesite, calcite, dripstone, tuff
+ -- Stonecutter cobbles raw stone/deepslate
+ -- Stonecutter turns cobble to gravel and gravel to sand
+ -- Stonecutter unpacks bricks and nether bricks
+ -- Stonecutter turns dripstone to pointed at half efficiency
+ -- Sticks craftable directly from logs
+ -- Smelt/blast raw ore blocks directly
+ - ADVANCEMENTS:
+ -- New advancement for killing 3 elder guardians
+ - LOOT TABLES:
+ -- Creepers drop 1 random leaves
+ -- Budding amethyst drops shards
+ -- Mineshaft carts have raw ore instead of ingots
+ -- Jungle temple dispensers can have poison arrows
+ -- Bats drop flint
+ -- Blazes drop iron nuggets
+ -- Cave spiders can drop Disk 11
+ -- Endermites drop popped chorus
+ -- Husks drop paper or sand
+ -- Ocelots drop jungle leaves
+ -- Piglin brutes drop 1 gold block on a player kill
+ -- Silverfish drop gravel, rarely an emerald
+ -- Woodland mansion chests contain dark oak items, rarely diamonds and emeralds
+ -- Sniffers drop moss blocks
+ -- Goats drop mutton
+ -- Shipwreck map chests can have spyglasses
+ -- Cold seafloor archaeology can have tridents
+ -- Non-functional, extremely rare weapon drops in some loot tables as placeholders
+ --- One is functional: Pride of the Piglins crossbow
+ -- Ancient city chests have stronger books, lots of chiseled deepslate, and potions of haste
+ - STRUCTURES:
+ -- Mushroom huts in mushroom biome
+ -- Ziggurat temples in mangrove swamps
+ -- Void hideouts in outer end (incomplete)
+ - ITEMS:
+ -- New item: salad, crafted with leaves and a bowl
+ - SILLY CHANGES:
+ -- Blast furnace in a blast furnace makes a blast furnace
+ -- Netherite ingot crafts into gray dye
+ -- Cat morning gifts have a tiny chance to contain eyes of ender (because you had a good Dream)
+ - OTHER:
+ -- Added incomplete emerald pickaxe item, currently unobtainable
