@@ -54,7 +54,10 @@
             {
               "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
-              "count": 1
+              "count": {
+                "min": 0,
+                "max": 1
+              }
             }
           ]
         }
