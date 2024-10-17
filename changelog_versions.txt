@@ -1,6 +1,11 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.1.1 (10/17/2024):
+ - Added bamboo mosaic to #planks item tag
+ - Fixed Life Vest weight from 1 to 2
+ - Lowered looting bonus to iron nugget drops from blazes
+
 v0.1.0 (09/04/2024):
  - Started actually keeping version numbers. The pack has existed for a long time before this but I never kept a changelog between versions
  - Split changelog and updated function to link to both documents

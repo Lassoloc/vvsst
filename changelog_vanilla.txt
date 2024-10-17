@@ -58,6 +58,7 @@ New recipes:
  - Logs can be crafted directly into sticks
  - Raw ore blocks can be smelted/blasted, which takes 9 times as long and gives 9 times the experience
  - Leaves and a bowl makes a brand new item: salad!
+ - Bamboo mosaic blocks can be used as wooden planks in any recipe
 
 New advancements:
  - Thalassophobia: Kill three elder guardians
