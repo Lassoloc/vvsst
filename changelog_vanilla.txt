@@ -12,6 +12,7 @@ Tag changes (not including anything listed under recipes):
 Enchantment changes and additions:
  - Shields now accept Thorns at an anvil
  - Shears now accept Silk Touch at an anvil
+ - Maces and tridents now accept Looting at an anvil, and axes can receive it from enchantment tables
  - New enchantment, Life Vest
  -- Only applies to chestplates
  -- Chance to grant absorption after being hit
