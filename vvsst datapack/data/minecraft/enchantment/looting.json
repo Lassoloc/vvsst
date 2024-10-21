@@ -1,11 +1,27 @@
 {
-  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.minecraft.looting"
   },
+  "supported_items": "#vvsst:accepts_looting",
+  "primary_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
   "effects": {
     "minecraft:equipment_drops": [
       {
+        "enchanted": "attacker",
         "effect": {
           "type": "minecraft:add",
           "value": {
@@ -14,7 +30,6 @@
             "per_level_above_first": 0.01
           }
         },
-        "enchanted": "attacker",
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
@@ -24,20 +39,5 @@
         }
       }
     ]
-  },
-  "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
-  },
-  "max_level": 3,
-  "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
-  },
-  "slots": [
-    "mainhand"
-  ],
-  "supported_items": "#minecraft:sharp_weapon",
-  "primary_items": "#vvsst:accepts_looting",
-  "weight": 2
+  }
 }

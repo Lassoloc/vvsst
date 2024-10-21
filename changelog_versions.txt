@@ -1,7 +1,7 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.1.2 (10/21/2024):
+v0.1.2 to v0.1.2a (10/21/2024):
  - Made Looting native to axes as well as swords, and accepted by tridents and maces
 
 v0.1.1 (10/17/2024):
