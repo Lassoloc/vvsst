@@ -8,19 +8,11 @@
   ],
   "key": {
     "#": [
-      {
-        "item": "minecraft:smooth_stone"
-      },
-      {
-        "item": "minecraft:tuff"
-      }
+      "minecraft:smooth_stone",
+      "minecraft:tuff"
     ],
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "minecraft:furnace"
-    }
+    "I": "minecraft:iron_ingot",
+    "X": "minecraft:furnace"
   },
   "result": {
     "id": "minecraft:blast_furnace",

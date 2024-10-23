@@ -3,9 +3,7 @@
   "category": "redstone",
   "group": "stone_button",
   "ingredients": [
-    {
-      "item": "minecraft:stone"
-    }
+    "minecraft:stone"
   ],
   "result": {
     "id": "minecraft:stone_button",

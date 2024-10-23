@@ -1,3 +1,8 @@
 
 desktop.ini
 *.bak
+vvsst datapack/data/minecraft/enchantment/flame.json
+vvsst datapack/data/vvsst/enchantment/bitter.json
+vvsst datapack/data/vvsst/enchantment/infernal_marauder.json
+vvsst datapack/data/vvsst/function/enchantment/embitter_arrow.mcfunction
+vvsst datapack/data/vvsst/predicate/burning.json

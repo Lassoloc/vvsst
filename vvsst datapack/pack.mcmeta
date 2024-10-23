@@ -1,7 +1,13 @@
 {
   "pack": {
-    "pack_format": 48,
-    "supported_formats": 48,
-    "description": "ivy's vanilla-style survival tweaks"
+    "pack_format": 57,
+    "supported_formats": [
+      56,
+      57
+    ],
+    "description": {
+      "text": "ivy's vanilla-style survival tweaks",
+      "color": "gold"
+    }
   }
 }
