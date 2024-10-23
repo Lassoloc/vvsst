@@ -6,12 +6,8 @@
     "BA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "B": {
-      "item": "minecraft:cobblestone"
-    }
+    "A": "minecraft:amethyst_shard",
+    "B": "minecraft:cobblestone"
   },
   "result": {
     "id": "minecraft:calcite",

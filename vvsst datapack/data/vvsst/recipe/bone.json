@@ -7,9 +7,7 @@
     "#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bone_meal"
-    }
+    "#": "minecraft:bone_meal"
   },
   "result": {
     "id": "minecraft:bone"

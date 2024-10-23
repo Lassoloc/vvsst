@@ -1,18 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "pattern": [
     "ABA",
     "BAB",
     "ABA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:obsidian"
-    },
-    "B": {
-      "item": "minecraft:lapis_lazuli"
-    }
+    "A": "minecraft:obsidian",
+    "B": "minecraft:lapis_lazuli"
   },
   "result": {
     "id": "minecraft:crying_obsidian",

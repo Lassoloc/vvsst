@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "category": "building",
-  "ingredient": {
-    "item": "minecraft:prismarine"
-  },
+  "category": "blocks",
+  "ingredient": "minecraft:prismarine",
   "result": {
     "id": "minecraft:dark_prismarine"
   },

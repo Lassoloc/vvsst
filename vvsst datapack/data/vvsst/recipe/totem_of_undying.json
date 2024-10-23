@@ -7,15 +7,9 @@
     " g "
   ],
   "key": {
-    "e": {
-      "item": "minecraft:emerald_block"
-    },
-    "x": {
-      "item": "minecraft:nether_star"
-    },
-    "g": {
-      "item": "minecraft:gold_block"
-    }
+    "e": "minecraft:emerald_block",
+    "x": "minecraft:nether_star",
+    "g": "minecraft:gold_block"
   },
   "result": {
     "id": "minecraft:totem_of_undying",

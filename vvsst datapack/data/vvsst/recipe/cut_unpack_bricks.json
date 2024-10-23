@@ -1,10 +1,7 @@
 {
   "type": "minecraft:stonecutting",
-  "category": "blocks",
   "ingredient": [
-    {
-      "item": "minecraft:bricks"
-    }
+    "minecraft:bricks"
   ],
   "result": {
     "id": "minecraft:brick",

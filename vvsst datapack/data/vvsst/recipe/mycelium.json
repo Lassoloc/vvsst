@@ -1,28 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "blocks",
+  "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:dirt"
-    }
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:dirt"
   ],
   "result": {
     "id": "minecraft:mycelium",

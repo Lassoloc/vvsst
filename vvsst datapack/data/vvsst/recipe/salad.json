@@ -1,47 +1,44 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "soul_lantern",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "minecraft:leaves"
-    },
-    {
-      "tag": "minecraft:leaves"
-    },
-    {
-      "tag": "minecraft:leaves"
-    },
-    {
-      "tag": "minecraft:leaves"
-    },
-    {
-      "tag": "minecraft:leaves"
-    },
-    {
-      "tag": "minecraft:leaves"
-    }
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "#minecraft:leaves",
+    "minecraft:bowl"
   ],
   "result": {
     "id": "minecraft:jigsaw",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 10997,
+      "minecraft:item_name": "{\"text\":\"Salad\"}",
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "sound": "entity.generic.eat",
+        "has_consume_particles": false
+      },
       "minecraft:food": {
         "nutrition": 3,
         "saturation": 1.2,
-        "using_converts_to": {
-          "id": "minecraft:bowl"
-        }
+        "can_always_eat": false
       },
-      "minecraft:item_name": "{\"text\":\"Salad\"}",
+      "minecraft:rarity": "common",
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl",
+        "count": 1
+      },
+      "minecraft:max_stack_size": 16,
       "minecraft:lore": [
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"This item uses a custom sprite.\"}",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
-      ]
+      ],
+      "minecraft:custom_model_data": 10997
     }
   }
 }

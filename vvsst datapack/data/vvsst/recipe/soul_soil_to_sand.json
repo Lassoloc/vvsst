@@ -1,14 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "pattern": [
     "AA",
     "AA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:soul_soil"
-    }
+    "A": "minecraft:soul_soil"
   },
   "result": {
     "id": "minecraft:soul_sand",

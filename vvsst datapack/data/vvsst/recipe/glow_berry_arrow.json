@@ -3,18 +3,14 @@
   "category": "equipment",
   "group": "spectral_arrow",
   "ingredients": [
-    {
-      "item": "minecraft:glow_berries"
-    },
-    {
-      "item": "minecraft:arrow"
-    },
-    {
-      "item": "minecraft:arrow"
-    }
+    "minecraft:glow_berries",
+    "minecraft:glow_berries",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow"
   ],
   "result": {
     "id": "minecraft:spectral_arrow",
-    "count": 2
+    "count": 3
   }
 }

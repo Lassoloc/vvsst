@@ -6,9 +6,7 @@
     "A"
   ],
   "key": {
-    "A": {
-      "tag": "minecraft:bamboo_blocks"
-    }
+    "A": "#minecraft:bamboo_blocks"
   },
   "result": {
     "id": "minecraft:bamboo",

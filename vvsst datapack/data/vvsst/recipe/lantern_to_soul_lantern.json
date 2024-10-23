@@ -3,26 +3,11 @@
   "category": "misc",
   "group": "soul_lantern",
   "ingredients": [
-    {
-      "item": "minecraft:lantern"
-    },
-    {
-      "item": "minecraft:lantern"
-    },
-    {
-      "item": "minecraft:lantern"
-    },
-    {
-      "item": "minecraft:lantern"
-    },
-    [
-      {
-        "item": "minecraft:soul_soil"
-      },
-      {
-        "item": "minecraft:soul_sand"
-      }
-    ]
+    "minecraft:lantern",
+    "minecraft:lantern",
+    "minecraft:lantern",
+    "minecraft:lantern",
+    "#minecraft:soul_fire_base_blocks"
   ],
   "result": {
     "id": "minecraft:soul_lantern",

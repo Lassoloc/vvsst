@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smoking",
   "category": "misc",
-  "ingredient": {
-    "item": "minecraft:chorus_fruit"
-  },
+  "ingredient": "minecraft:chorus_fruit",
   "result": {
     "id": "minecraft:popped_chorus_fruit"
   },

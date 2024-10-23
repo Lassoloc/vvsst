@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "red_dye",
   "ingredients": [
-    {
-      "item": "minecraft:crimson_roots"
-    }
+    "minecraft:crimson_roots"
   ],
   "result": {
     "id": "minecraft:red_dye"

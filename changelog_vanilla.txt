@@ -37,7 +37,6 @@ New recipes:
  - Podzol can be made with grass blocks, mycelium, and spruce leaves
  - Nylium can be made with netherrack and the respective nether vegetation
  - Crying obsidian can be made with obsidian and lapis lazuli
- - The enchanted golden apple recipe from pre-1.8 has been readded
  - Bottles o' enchanting can be made with empty bottles and echo shards
  - Spectral arrows can alternatively be made with glow berries
  - Honeycomb can be smelted to make yellow dye
@@ -131,3 +130,4 @@ Removed changes that may eventually be reconsidered:
  -- One granted bonus attack damage and attack speed
  -- One granted max health and armor toughness
  -- One boosted speed and was supposed to boots jump height as well
+ - Readded pre-1.8 enchanted golden apple recipe

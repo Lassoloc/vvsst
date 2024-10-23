@@ -6,11 +6,10 @@
     "#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:blaze_powder"
-    }
+    "#": "minecraft:blaze_powder"
   },
   "result": {
-    "id": "minecraft:blaze_rod"
+    "id": "minecraft:blaze_rod",
+    "count": 1
   }
 }

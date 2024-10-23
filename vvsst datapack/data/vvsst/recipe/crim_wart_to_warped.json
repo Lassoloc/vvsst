@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:twisting_vines"
-    },
-    {
-      "item": "minecraft:nether_wart_block"
-    }
+    "minecraft:twisting_vines",
+    "minecraft:nether_wart_block"
   ],
   "result": {
     "id": "minecraft:warped_wart_block"
