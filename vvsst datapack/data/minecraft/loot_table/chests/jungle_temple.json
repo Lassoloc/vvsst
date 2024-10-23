@@ -145,7 +145,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30,
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
@@ -177,17 +177,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 9
+          "weight": 24
         },
         {
           "type": "minecraft:loot_table",
           "value": "vvsst:items/glaive",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.4
-            }
-          ]
+          "weight": 1
         }
       ]
     }

@@ -16,7 +16,8 @@
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -47,7 +48,8 @@
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -150,9 +152,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "options": "minecraft:soul_speed"
             }
           ]
         }
@@ -182,7 +182,8 @@
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -209,9 +210,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "options": "minecraft:soul_speed"
             }
           ]
         },
@@ -225,7 +224,8 @@
               "add": false
             },
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -535,15 +535,6 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 1
-        },
-        {
           "type": "minecraft:loot_table",
           "value": "vvsst:items/pride_of_the_piglins",
           "weight": 1,
@@ -553,6 +544,15 @@
               "chance": 0.4
             }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 1
         }
       ]
     }

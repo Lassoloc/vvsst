@@ -87,7 +87,7 @@
                 "min": 30,
                 "max": 50
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -149,7 +149,7 @@
                 "min": 30,
                 "max": 50
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -160,9 +160,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:swift_sneak"
-              ]
+              "options": "minecraft:swift_sneak"
             }
           ]
         },
@@ -274,7 +272,7 @@
                 "min": 20,
                 "max": 39
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -339,10 +337,10 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "min": 45,
-                "max": 50
+                "min": 42,
+                "max": 48
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -425,7 +423,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "potion": "minecraft:water",
+                  "potion": "minecraft:thick",
                   "custom_color": 14270531,
                   "custom_effects": [
                     {
@@ -433,8 +431,7 @@
                       "duration": 4800
                     }
                   ]
-                },
-                "minecraft:item_name": "{\"text\":\"Potion of Vigor\"}"
+                }
               }
             },
             {
@@ -444,6 +441,12 @@
                 "min": 1,
                 "max": 2
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "Potion of Vigor"
             }
           ]
         },
@@ -468,6 +471,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chiseled_deepslate",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -477,13 +481,11 @@
                 "max": 60
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
-            }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
         }
       ]
     }
