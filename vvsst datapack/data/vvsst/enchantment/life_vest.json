@@ -30,13 +30,15 @@
             {
               "type": "minecraft:spawn_particles",
               "particle": {
-                "type": "minecraft:happy_villager"
+                "type": "minecraft:totem_of_undying"
               },
               "horizontal_position": {
-                "type": "in_bounding_box"
+                "type": "in_bounding_box",
+                "scale": 3
               },
               "vertical_position": {
-                "type": "in_bounding_box"
+                "type": "in_bounding_box",
+                "scale": 3
               },
               "horizontal_velocity": {
                 "base": 0.1
@@ -44,7 +46,7 @@
               "vertical_velocity": {
                 "base": 0.1
               },
-              "speed": 0.1
+              "speed": 0.15
             },
             {
               "type": "minecraft:apply_mob_effect",

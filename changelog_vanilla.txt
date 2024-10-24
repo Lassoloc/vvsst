@@ -16,6 +16,8 @@ Enchantment changes and additions:
  - New enchantment, Life Vest
  -- Only applies to chestplates
  -- Chance to grant absorption after being hit
+ - New armor curse, Famine
+ -- Chance to sap hunger when wearer is hit
 
 Changed recipes:
  - Lever recipe makes 3 levers instead of 1
