@@ -1,7 +1,7 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.1.4 (10/24/2024):
+v0.1.4 to v0.1.4a (10/24/2024):
  - Updated Life Vest particles
  - Added Curse of Famine
  - Villagers can no longer offer Mending books

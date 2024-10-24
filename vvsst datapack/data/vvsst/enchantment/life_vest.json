@@ -30,23 +30,23 @@
             {
               "type": "minecraft:spawn_particles",
               "particle": {
-                "type": "minecraft:totem_of_undying"
+                "type": "minecraft:egg_crack"
               },
               "horizontal_position": {
                 "type": "in_bounding_box",
-                "scale": 3
+                "scale": 2
               },
               "vertical_position": {
                 "type": "in_bounding_box",
-                "scale": 3
+                "scale": 2
               },
               "horizontal_velocity": {
-                "base": 0.1
+                "base": 0
               },
               "vertical_velocity": {
-                "base": 0.1
+                "base": 0
               },
-              "speed": 0.15
+              "speed": 0.3
             },
             {
               "type": "minecraft:apply_mob_effect",
