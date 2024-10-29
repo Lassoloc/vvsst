@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "soul_lantern",
   "ingredients": [
     "#minecraft:leaves",
     "#minecraft:leaves",
