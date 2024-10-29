@@ -1,11 +1,12 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.1.4 to v0.1.4a (10/24/2024):
- - Updated Life Vest particles
+v0.1.4 to v0.1.4b (10/24/2024):
+ - Updated Life Vest particles (still needs updating)
  - Added Curse of Famine
  - Villagers can no longer offer Mending books
  - Chickens have a tiny chance to lay golden eggs
+ - Attempted to fix custom model data for salad and mushroom pores
 
 v0.1.3 (10/23/2024):
  - Updated to 1.21.3 compatibility
