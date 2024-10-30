@@ -77,6 +77,7 @@ Changed entity loot tables:
  - Silverfish can drop gravel, and rarely an emerald
  - Removed sniffer drops have been readded (moss blocks)
  - Removed goat drops have been readded (mutton)
+ - Wardens will drop echo shards if killed with looting, and a warden head if killed by a player
 
 Changed block loot tables:
  - Budding amethyst drops a bunch of amethyst shards

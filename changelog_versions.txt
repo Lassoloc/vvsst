@@ -1,7 +1,10 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.1.4 to v0.1.4c (10/24/2024):
+v0.1.5 (10/29/2024):
+ - Wardens now drop warden heads on player kills, and echo shards with looting
+
+v0.1.4 to v0.1.4c (10/24/2024 - 10/29/2024):
  - Updated Life Vest particles (still needs updating)
  - Added Curse of Famine
  - Villagers can no longer offer Mending books
