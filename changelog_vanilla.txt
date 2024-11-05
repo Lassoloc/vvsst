@@ -8,6 +8,7 @@ New function commands:
 
 Tag changes (not including anything listed under recipes):
  - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, and amethyst crystals
+ - Beacons are now mined faster with a pickaxe (fix MC-171534)
 
 Enchantment changes and additions:
  - Shields now accept Thorns at an anvil
@@ -81,6 +82,7 @@ Changed entity loot tables:
 
 Changed block loot tables:
  - Budding amethyst drops a bunch of amethyst shards
+ - Dirt paths and farmland can be silk touched
 
 Changed container loot tables:
  - Mineshaft minecarts contain raw ore instead of ingots
@@ -118,6 +120,7 @@ Work in progress changes:
  - Unobtainable emerald pickaxe item that may be added to loot tables once finished
  - New enchantment Infernal Marauder: mobs drop bonus experience while the player is on fire
  -- As of 24w36a this is not currently possible the straightforward way and a workaround may need to be found
+ - Secret structure, mostly complete but doesn't generate naturally due to jigsaw issues
 
 Removed changes that may eventually be reconsidered:
  - Pink petals made replaceable
