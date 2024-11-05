@@ -1,10 +1,11 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.1.6 (11/05/2024):
+v0.1.6-v0.2.0 (11/05/2024):
  - Dirt paths and farmland can be silk touched
  - Beacons mine faster with a pickaxe
- - Added incomplete secret structure, doesn't generate yet due to jigsaw issues
+ - Added secret structure :)
+ -- Doesn't have loot yet, instead has a placeholder item explaining as such
 
 v0.1.5 (10/29/2024):
  - Wardens now drop warden heads on player kills, and echo shards with looting
