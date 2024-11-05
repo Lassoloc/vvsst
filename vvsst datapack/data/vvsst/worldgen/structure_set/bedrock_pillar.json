@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "vvsst:bedrock_pillar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1067496299,
+    "spacing": 256,
+    "separation": 192
+  }
+}
