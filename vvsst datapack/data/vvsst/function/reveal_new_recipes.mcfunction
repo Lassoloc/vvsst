@@ -53,4 +53,5 @@ recipe give @a vvsst:stonecut_gravel_to_sand
 recipe give @a vvsst:stonecut_dripstone_to_pointed
 recipe give @a vvsst:stonecut_stone_to_cobble
 recipe give @a vvsst:salad
+recipe give @a vvsst:mechanized_building_arm
 tellraw @a {"text":"VVSST: Unlocked all new recipes","color":"green","bold":true}

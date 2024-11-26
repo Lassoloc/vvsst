@@ -415,25 +415,10 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "type": "minecraft:loot_table",
+          "value": "vvsst:items/haste_potion_extended",
           "weight": 25,
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:thick",
-                  "custom_color": 14270531,
-                  "custom_effects": [
-                    {
-                      "id": "minecraft:haste",
-                      "duration": 4800
-                    }
-                  ]
-                }
-              }
-            },
             {
               "function": "minecraft:set_count",
               "count": {
@@ -441,12 +426,6 @@
                 "min": 1,
                 "max": 2
               }
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "item_name",
-              "name": "Potion of Vigor"
             }
           ]
         },

@@ -1,0 +1,38 @@
+{
+  "description": "mechanized_arm_enchantment",
+  "exclusive_set": [
+    "minecraft:efficiency",
+    "minecraft:silk_touch",
+    "minecraft:fortune",
+    "minecraft:unbreaking",
+    "minecraft:mending",
+    "minecraft:vanishing_curse"
+  ],
+  "supported_items": "minecraft:jigsaw",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "vvsst:enchantment/damage_offhand"
+        }
+      }
+    ]
+  }
+}

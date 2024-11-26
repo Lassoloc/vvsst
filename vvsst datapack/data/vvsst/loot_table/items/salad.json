@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jigsaw",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\":\"Salad\"}",
+                  "minecraft:consumable": {
+                    "consume_seconds": 1.6,
+                    "animation": "eat",
+                    "sound": "entity.generic.eat",
+                    "has_consume_particles": false
+                  },
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 1.2,
+                    "can_always_eat": false
+                  },
+                  "minecraft:rarity": "common",
+                  "minecraft:use_remainder": {
+                    "id": "minecraft:bowl",
+                    "count": 1
+                  },
+                  "minecraft:max_stack_size": 16,
+                  "minecraft:lore": [
+                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"This item uses a custom sprite.\"}",
+                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
+                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
+                  ],
+                  "minecraft:custom_model_data": 10997
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

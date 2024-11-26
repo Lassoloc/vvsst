@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:thick",
+                    "custom_color": 14270531,
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:haste",
+                        "duration": 1800
+                      }
+                    ]
+                  },
+                  "minecraft:item_name": "{\"text\":\"Potion of Vigor\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

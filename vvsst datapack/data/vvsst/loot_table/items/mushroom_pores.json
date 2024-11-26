@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mushroom_stem",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:block_state": {
+                    "north": "false",
+                    "east": "false",
+                    "west": "false",
+                    "south": "false",
+                    "up": "false",
+                    "down": "false"
+                  },
+                  "minecraft:item_name": "{\"text\":\"Mushroom Pores\"}",
+                  "minecraft:custom_model_data": 10990
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -3,6 +3,7 @@
     "minecraft:binding_curse",
     "minecraft:vanishing_curse",
     "vvsst:heavy_duty_cogs",
-    "vvsst:famine_curse"
+    "vvsst:famine_curse",
+    "vvsst:damage_when_hit_in_offhand"
   ]
 }
