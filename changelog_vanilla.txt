@@ -62,6 +62,8 @@ New recipes:
  - Raw ore blocks can be smelted/blasted, which takes 9 times as long and gives 9 times the experience
  - Leaves and a bowl makes a brand new item: salad!
  - Bamboo mosaic blocks can be used as wooden planks in any recipe
+ - A chest can be crafted with another item to lock that chest, only allowing it to be opened with the matching item
+ -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, and all dyes. This will be expanded upon in the future
 
 New advancements:
  - Thalassophobia: Kill three elder guardians

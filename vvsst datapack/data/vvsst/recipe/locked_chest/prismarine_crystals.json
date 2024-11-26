@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:prismarine_crystals"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {"items":"minecraft:prismarine_crystals"},
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
+        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:prismarine_crystals\"}"
+      ]
+    }
+  }
+}

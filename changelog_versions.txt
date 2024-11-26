@@ -1,6 +1,11 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.2 (11/25/2024):
+ - Craft a chest with an item to create a locked chest that can only be opened with that item
+ -- Currently supported items are prismarine crystals, diamonds, amethyst shards, firework stars, and all 16 dyes
+ --- This will be expanded in the future
+
 v0.2.1 (11/21/2024):
  - Fixed certain loot tables being able to generate enchantments they shouldn't
 

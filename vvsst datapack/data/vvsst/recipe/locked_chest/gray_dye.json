@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:gray_dye"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {"items":"minecraft:gray_dye"},
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
+        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:gray_dye\"}"
+      ]
+    }
+  }
+}

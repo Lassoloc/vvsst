@@ -6,3 +6,5 @@ vvsst datapack/data/vvsst/enchantment/bitter.json
 vvsst datapack/data/vvsst/enchantment/infernal_marauder.json
 vvsst datapack/data/vvsst/function/enchantment/embitter_arrow.mcfunction
 vvsst datapack/data/vvsst/predicate/burning.json
+cfft.config.json
+.cfft.templates/component/component.json

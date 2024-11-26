@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:firework_star"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {"items":"minecraft:firework_star"},
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
+        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:firework_star\"}"
+      ]
+    }
+  }
+}
