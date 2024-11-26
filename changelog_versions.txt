@@ -1,6 +1,10 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.3 (11/26/2024):
+ - Added Mechanized Building Arm
+ - Gave all custom items their own loot tables
+
 v0.2.2 (11/25/2024):
  - Craft a chest with an item to create a locked chest that can only be opened with that item
  -- Currently supported items are prismarine crystals, diamonds, amethyst shards, firework stars, and all 16 dyes

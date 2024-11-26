@@ -64,6 +64,8 @@ New recipes:
  - Bamboo mosaic blocks can be used as wooden planks in any recipe
  - A chest can be crafted with another item to lock that chest, only allowing it to be opened with the matching item
  -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, and all dyes. This will be expanded upon in the future
+ - A new item, the Mechanized Building Arm, can be crafted. It increases block reach and mining speed when held in the offhand, at the cost of losing a heart and a half from your max health.
+ -- The MBA has the same durability as a shield, and loses 1 point whenever you take damage with it equipped
 
 New advancements:
  - Thalassophobia: Kill three elder guardians
@@ -114,6 +116,9 @@ Silly changes:
  - A blast furnace in a blast furnace makes a blast furnace
  - A netherite ingot can be crafted into a single gray dye
  - Cat morning gifts have a small chance to contain eyes of ender (because you had a good Dream)
+
+Known bugs:
+ - The Mechanized Building Arm is considered a golden pickaxe under the hood. This means that crafting it increments the stat for golden pickaxes crafted, and it is treated like a golden pickaxe for smelting and repairing purposes
 
 Work in progress changes:
  - Small prismarine spikes feature should be added to deep ocean floors
