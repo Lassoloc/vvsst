@@ -17,7 +17,7 @@
         "down": "false"
       },
       "minecraft:item_name": "{\"text\":\"Mushroom Pores\"}",
-      "minecraft:custom_model_data": 10990
+      "minecraft:item_model": "vvsst:mushroom_pores"
     }
   }
 }

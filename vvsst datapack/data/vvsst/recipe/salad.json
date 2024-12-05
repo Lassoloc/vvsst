@@ -37,7 +37,7 @@
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
       ],
-      "minecraft:custom_model_data": 10997
+      "minecraft:item_model": "vvsst:salad"
     }
   }
 }

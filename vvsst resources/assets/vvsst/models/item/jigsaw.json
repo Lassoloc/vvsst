@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/jigsaw",
-    "overrides": [
-        { "predicate": { "custom_model_data": 10997 }, "model": "vvsst:item/salad" }
-      ]
-  }
