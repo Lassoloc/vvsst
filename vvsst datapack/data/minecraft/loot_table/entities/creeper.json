@@ -82,7 +82,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:dark_oak_leaves",
-          "weight": 3
+          "weight": 2
+        },        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_leaves",
+          "weight": 1
         },
         {
           "type": "minecraft:item",

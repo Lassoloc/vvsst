@@ -5,6 +5,7 @@
     "#minecraft:buttons",
     "#minecraft:candles",
     "#minecraft:climbable",
+    "minecraft:pale_hanging_moss",
     "#minecraft:corals",
     "#minecraft:flower_pots",
     "#minecraft:flowers",
@@ -14,6 +15,7 @@
     "minecraft:lily_pad",
     "minecraft:sculk_vein",
     "minecraft:moss_carpet",
+    "minecraft:pale_moss_carpet",
     "minecraft:wall_torch",
     "minecraft:soul_wall_torch",
     "minecraft:redstone_wall_torch",
@@ -23,6 +25,7 @@
     "minecraft:amethyst_cluster",
     "minecraft:lever",
     "minecraft:tripwire_hook",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:snow"
   ]
 }

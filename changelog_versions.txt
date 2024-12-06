@@ -1,6 +1,16 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.5 (12/06/2024):
+ - Added pale oak leaves to creeper loot table
+ - Added raw copper to mineshaft loot table
+ - Fixed experience bottle recipe giving 7 instead of 8
+ - Changelog fixes
+
+v0.2.4 (12/05/2024):
+ - Initial 1.21.4 port, may have some bugs
+ - Added resin clumps, snow layers, pale moss carpets, and pale hanging moss to #enchantment_power_transmitter
+
 v0.2.3 (11/26/2024):
  - Added Mechanized Building Arm
  - Gave all custom items their own loot tables

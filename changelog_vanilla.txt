@@ -7,7 +7,7 @@ New function commands:
  -- Posts a link to this changelog, and the pack changelog, in the chat
 
 Tag changes (not including anything listed under recipes):
- - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, and amethyst crystals
+ - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss
  - Beacons are now mined faster with a pickaxe (fix MC-171534)
 
 Enchantment changes and additions:
@@ -26,7 +26,7 @@ Changed recipes:
  - Popped chorus fruit can also be made in the smoker
  - Stone tools now accept most types of stone
  -- In addition to cobblestone, cobbled deepslate, and blackstone, the following can be used: Raw stone, raw deepslate, granite, diorite, andesite, calcite, dripstone, and tuff
- - Blast furnace recipe accepts tuff as an alternative to smooth stone (not interchangably yet, this is todo)
+ - Blast furnace recipe accepts tuff as an alternative to smooth stone (should be interchangable, doublecheck?)
 
 New recipes:
  - Bonemeal and blaze powder can be crafted back into bones and blaze rods
@@ -89,7 +89,7 @@ Changed block loot tables:
  - Dirt paths and farmland can be silk touched
 
 Changed container loot tables:
- - Mineshaft minecarts contain raw ore instead of ingots
+ - Mineshaft minecarts contain raw ore instead of ingots, and can contain copper
  - Arrows in jungle temple dispensers can be poison tipped
  - Woodland mansion chests now contain various dark oak items, and can contain diamonds and emeralds
  - Shipwreck map chests can contain spyglasses
