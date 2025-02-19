@@ -1,6 +1,14 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.6 (02/18/2025):
+ - Added nether brick (the item, not the block) to ruined portal chest loot table
+ - Bows and crossbows can take looting
+ -- They still have the same rules as all other items: due to how looting works they need to be held when the arrow strikes to have an effect
+ - Ancient city chests can contain enchanted shears
+ -- As a side effect of the method used, any shears item obtained from an ancient city chest and then disenchanted in a grindstone will be accepted by an enchantment table with an enchantability of 1
+ - Creepers drop leaves only on player-attributed kills
+
 v0.2.5 (12/06/2024):
  - Added pale oak leaves to creeper loot table
  - Added raw copper to mineshaft loot table
