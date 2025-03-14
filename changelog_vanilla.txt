@@ -5,6 +5,9 @@ New function commands:
  -- Gives all active players all new recipes in their recipe book
  - /function vvsst:changelog
  -- Posts a link to this changelog, and the pack changelog, in the chat
+ - /function vvsst:collect {item:___}
+ -- Teleports all item entities of the specified type (in place of ___) to the user.
+ -- Currently assumes minecraft: namespace, meaning it doesn't work with modded items
 
 Tag changes (not including anything listed under recipes):
  - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss
@@ -92,6 +95,7 @@ Changed container loot tables:
  - Mineshaft minecarts contain raw ore instead of ingots, and can contain copper
  - Arrows in jungle temple dispensers can be poison tipped
  - Woodland mansion chests now contain various dark oak items, and can contain diamonds and emeralds
+ - The various empty chests found in woodland mansions have been filled with a new loot table for the storage rooms and a handful of mushrooms for the mushroom farm room
  - Shipwreck map chests can contain spyglasses
  - Ruined portal chests can contain nether bricks (the item, not the block)
  - Cold seafloor archaeology can have a trident extremely rarely

@@ -1,9 +1,15 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.8 (03/14/2025):
+ - Empty chests in woodland mansions now contain items
+ -- Storage rooms (1x2_a9 and 2x2_a2) have a new loot table for the chests
+ -- Mushroom farm room (1x1_a7) has a few mushrooms and a single bowl of mushroom stew
+
 v0.2.7 (03/11/2025):
  - Partially added new Spirit Infusion enchantment
  - Added new macro function collect, accepts key "item" to teleport all item entities of that type to the executor
+ -- Example: /function vvsst:collect {item:dirt}
 
 v0.2.6 (02/18/2025):
  - Added nether brick (the item, not the block) to ruined portal chest loot table
