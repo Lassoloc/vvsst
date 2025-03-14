@@ -1,7 +1,7 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.2.8 (03/14/2025):
+v0.2.8 to 0.2.8a (03/14/2025):
  - Empty chests in woodland mansions now contain items
  -- Storage rooms (1x2_a9 and 2x2_a2) have a new loot table for the chests
  -- Mushroom farm room (1x1_a7) has a few mushrooms and a single bowl of mushroom stew
