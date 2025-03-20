@@ -8,6 +8,8 @@ New function commands:
  - /function vvsst:collect {item:___}
  -- Teleports all item entities of the specified type (in place of ___) to the user.
  -- Currently assumes minecraft: namespace, meaning it doesn't work with modded items
+ - /function vvsst:warp/test_dim
+ -- Teleports player to a test dimension consisting of only a flat layer of barrier blocks
 
 Tag changes (not including anything listed under recipes):
  - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss

@@ -1,6 +1,10 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+0.2.9 (03/19/2025):
+ - Added a new test dimension, accessible via /function vvsst:warp/test_dim
+ -- Consists of a superflat void world with a layer of barriers
+
 v0.2.8 to 0.2.8a (03/14/2025):
  - Empty chests in woodland mansions now contain items
  -- Storage rooms (1x2_a9 and 2x2_a2) have a new loot table for the chests
