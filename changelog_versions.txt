@@ -1,6 +1,13 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.2.10 (03/27/2025):
+ - Update to 1.21.5, as always may have some bugs / things i missed
+ - reveal_new_recipes function now gives locked chest recipes
+ - Locked chests can now be locked with all types of pottery sherds
+ - Cooked blast furnaces can be eaten very very slowly
+ - Various other formatting fixes maybe? I normally hate vague changelog entries like this but I wasn't paying a lot of attention, it was really just me reformatting some json in item names to make them display correctly I think
+
 0.2.9 to 0.2.9a (03/19/2025):
  - Added a new test dimension, accessible via /function vvsst:warp/test_dim
  -- Consists of a superflat void world with a layer of barriers

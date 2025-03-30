@@ -13,7 +13,6 @@
               "components": {
                 "minecraft:max_damage": 96,
                 "minecraft:max_stack_size": 1,
-                "minecraft:custom_model_data": 10999,
                 "minecraft:repair_cost": 99
               }
             },

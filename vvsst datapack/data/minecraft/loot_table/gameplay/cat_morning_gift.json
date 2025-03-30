@@ -52,10 +52,7 @@
                   "{\"text\":\"Looks like you had a good Dream\",\"color\":\"gold\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": 1
-                  },
-                  "show_in_tooltip": false
+                  "minecraft:fortune": 1
                 }
               }
             }

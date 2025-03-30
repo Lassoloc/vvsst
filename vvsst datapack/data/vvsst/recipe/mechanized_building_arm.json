@@ -17,32 +17,33 @@
   "result": {
     "id": "minecraft:golden_pickaxe",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Mechanized Building Arm\",\"color\":\"gold\"}",
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
-          {
-            "id": "vvsst:arm_extension",
-            "type": "minecraft:block_interaction_range",
-            "amount": 2.5,
-            "operation": "add_value",
-            "slot": "offhand"
-          },
-          {
-            "id": "vvsst:arm_bonus_speed",
-            "type": "minecraft:block_break_speed",
-            "amount": 0.1,
-            "operation": "add_multiplied_total",
-            "slot": "offhand"
-          },
-          {
-            "id": "vvsst:arm_extension_penalty",
-            "type": "minecraft:max_health",
-            "amount": -3,
-            "operation": "add_value",
-            "slot": "offhand"
-          }
-        ]
+      "minecraft:item_name": {
+        "text": "Mechanized Building Arm",
+        "color": "gold"
       },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "id": "vvsst:arm_extension",
+          "amount": 2.5,
+          "operation": "add_value",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:block_break_speed",
+          "id": "vvsst:arm_bonus_speed",
+          "amount": 0.1,
+          "operation": "add_multiplied_total",
+          "slot": "offhand"
+        },
+        {
+          "type": "minecraft:max_health",
+          "id": "vvsst:arm_extension_penalty",
+          "amount": -3,
+          "operation": "add_value",
+          "slot": "offhand"
+        }
+      ],
       "minecraft:enchantments": {
         "vvsst:damage_when_hit_in_offhand": 1
       },

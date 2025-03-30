@@ -11,7 +11,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"text\":\"Salad\"}",
+                  "minecraft:item_name": {
+                    "text": "Salad"
+                  },
                   "minecraft:consumable": {
                     "consume_seconds": 1.6,
                     "animation": "eat",

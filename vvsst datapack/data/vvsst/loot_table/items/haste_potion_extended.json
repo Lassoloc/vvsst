@@ -21,7 +21,9 @@
                     }
                   ]
                 },
-                "minecraft:item_name": "{\"text\":\"Potion of Vigor\"}"
+                "minecraft:item_name": {
+                  "text": "Potion of Vigor"
+                }
               }
             }
           ]

@@ -4,7 +4,12 @@
   "result": {
     "id": "minecraft:blast_furnace",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Cooked Blast Furnace\"}"
+      "minecraft:item_name": {
+        "text": "Cooked Blast Furnace"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1200
+      }
     }
   },
   "cookingtime": 100

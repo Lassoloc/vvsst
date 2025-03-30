@@ -16,7 +16,9 @@
         "up": "false",
         "down": "false"
       },
-      "minecraft:item_name": "{\"text\":\"Mushroom Pores\"}",
+      "minecraft:item_name": {
+        "text": "Mushroom Pores"
+      },
       "minecraft:item_model": "vvsst:mushroom_pores"
     }
   }

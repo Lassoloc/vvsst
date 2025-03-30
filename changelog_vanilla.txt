@@ -71,7 +71,7 @@ New recipes:
  - Leaves and a bowl makes a brand new item: salad!
  - Bamboo mosaic blocks can be used as wooden planks in any recipe
  - A chest can be crafted with another item to lock that chest, only allowing it to be opened with the matching item
- -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, and all dyes. This will be expanded upon in the future
+ -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, all pottery sherds, and all dyes. This will be expanded upon in the future
  - A new item, the Mechanized Building Arm, can be crafted. It increases block reach and mining speed when held in the offhand, at the cost of losing a heart and a half from your max health.
  -- The MBA has the same durability as a shield, and loses 1 point whenever you take damage with it equipped
 
@@ -124,6 +124,7 @@ New structures:
 
 Silly changes:
  - A blast furnace in a blast furnace makes a blast furnace
+ -- You can try to eat it but I think it might take a while
  - A netherite ingot can be crafted into a single gray dye
  - Cat morning gifts have a small chance to contain eyes of ender (because you had a good Dream)
 
@@ -134,7 +135,7 @@ Known bugs:
 Work in progress changes:
  - Small prismarine spikes feature should be added to deep ocean floors
  - Most new recipes need to be sorted into categories and groups
- - Empty containers in structures should have barebones loot tables
+ - Empty containers in structures should have barebones loot tables (partially done with woodland mansions)
  - Infested stone should drop gravel
  - Rare weapon drops need to be finished. Only the pride of the piglins crossbow is currently functional
  - Unobtainable emerald pickaxe item that may be added to loot tables once finished
@@ -155,5 +156,5 @@ Removed changes that may eventually be reconsidered:
  - Offhand attribute charms:
  -- One granted bonus attack damage and attack speed
  -- One granted max health and armor toughness
- -- One boosted speed and was supposed to boots jump height as well
+ -- One boosted speed and was supposed to boost jump height as well
  - Readded pre-1.8 enchanted golden apple recipe
