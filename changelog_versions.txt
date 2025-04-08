@@ -1,8 +1,12 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.2.11 (04/04/2025):
+v0.2.12 (04/07/2025):
+ - Added Divebomber enchantment for elytra, grants bonus attack damage while in a flying state
+
+v0.2.11-v0.2.11a (04/04/2025):
  - Removed golden egg chance temporarily
+ - Updated ruined portal loot table to 1.21.5
 
 v0.2.10 (03/27/2025):
  - Update to 1.21.5, as always may have some bugs / things i missed

@@ -35,6 +35,7 @@
     "minecraft:piercing",
     "minecraft:density",
     "minecraft:breach",
-    "vvsst:life_vest"
+    "vvsst:life_vest",
+    "vvsst:divebomber"
   ]
 }
