@@ -1,5 +1,5 @@
 {
-  "description": "mechanized_arm_enchantment",
+  "description": "mech_arm_builtin_enchant",
   "exclusive_set": [
     "minecraft:efficiency",
     "minecraft:silk_touch",

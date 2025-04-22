@@ -76,7 +76,7 @@ New recipes:
  - A chest can be crafted with another item to lock that chest, only allowing it to be opened with the matching item
  -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, all pottery sherds, and all dyes. This will be expanded upon in the future
  - A new item, the Mechanized Building Arm, can be crafted. It increases block reach and mining speed when held in the offhand, at the cost of losing a heart and a half from your max health.
- -- The MBA has the same durability as a shield, and loses 1 point whenever you take damage with it equipped
+ -- The MBA has 96 durability, and loses 1 point whenever you take damage from a direct attack with it equipped
 
 New advancements:
  - Thalassophobia: Kill three elder guardians

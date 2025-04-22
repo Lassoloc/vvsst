@@ -1,6 +1,6 @@
 {
-    "model": {
-      "type": "minecraft:model",
-      "model": "vvsst:block/mushroom_pores"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "vvsst:block/mushroom_pores"
   }
+}

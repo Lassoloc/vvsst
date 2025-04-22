@@ -1,48 +1,59 @@
 {
-    "type": "minecraft:command",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:jigsaw",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_name": {
-                    "text": "Salad"
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Salad"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "has_consume_particles": false
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 1.2,
+                  "can_always_eat": false
+                },
+                "minecraft:rarity": "common",
+                "minecraft:use_remainder": {
+                  "id": "minecraft:bowl",
+                  "count": 1
+                },
+                "minecraft:max_stack_size": 16,
+                "minecraft:lore": [
+                  {
+                    "text": "This item uses a custom sprite. If it shows up",
+                    "color": "gray",
+                    "italic": false
                   },
-                  "minecraft:consumable": {
-                    "consume_seconds": 1.6,
-                    "animation": "eat",
-                    "sound": "entity.generic.eat",
-                    "has_consume_particles": false
+                  {
+                    "text": "for you as a jigsaw block or missing texture,",
+                    "color": "gray",
+                    "italic": false
                   },
-                  "minecraft:food": {
-                    "nutrition": 3,
-                    "saturation": 1.2,
-                    "can_always_eat": false
-                  },
-                  "minecraft:rarity": "common",
-                  "minecraft:use_remainder": {
-                    "id": "minecraft:bowl",
-                    "count": 1
-                  },
-                  "minecraft:max_stack_size": 16,
-                  "minecraft:lore": [
-                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"This item uses a custom sprite.\"}",
-                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
-                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
-                  ],
-                  "minecraft:item_model": "vvsst:salad"
-                }
+                  {
+                    "text": "you're missing the VVSST resource pack.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "vvsst:salad"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

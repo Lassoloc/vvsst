@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "text": "Potion of Vigor",
+                  "text": "Mechanized Building Arm",
                   "color": "gold"
                 },
                 "minecraft:attribute_modifiers": [
@@ -41,16 +41,28 @@
                 "minecraft:enchantments": {
                   "vvsst:damage_when_hit_in_offhand": 1
                 },
-                "minecraft:max_damage": 336,
+                "minecraft:max_damage": 96,
                 "minecraft:max_stack_size": 1,
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"This item uses a custom sprite.\"}",
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"If it shows up for you as a jigsaw block,\"}",
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"you're missing the built-in resource pack.\"}"
+                  {
+                    "text": "This item uses a custom sprite. If it shows up",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "for you as a jigsaw block or missing texture,",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "you're missing the VVSST resource pack.",
+                    "color": "gray",
+                    "italic": false
+                  }
                 ],
                 "!minecraft:enchantable": {},
                 "!minecraft:tool": {},
-                "minecraft:item_model": "minecraft:jigsaw"
+                "minecraft:item_model": "vvsst:mechanized_arm"
               }
             }
           ]

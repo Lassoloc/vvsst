@@ -1,0 +1,23 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/end_crystal",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": 15335489
+            }
+          ]
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_pickaxe",
+          "tints": []
+        }
+      ]
+    },
+    "hand_animation_on_swap": true
+  }
