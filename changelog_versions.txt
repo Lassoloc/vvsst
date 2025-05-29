@@ -1,6 +1,23 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.3.0 (05/29/2025):
+ - All flowers that craft light gray dye now make white dye instead
+ - Removed the following changed loot tables:
+ -- Endermites dropping popped chorus
+ -- Cave spiders dropping disk 13
+ -- Ocelots dropping jungle leaves
+ -- Bats dropping flint
+ -- Silverfish dropping gravel and emeralds
+ -- All custom items in structure loot tables have been officially removed. They were previously removed temporarily but this is now a formal change and will stay this way for the foreseeable future
+ - Husks can no longer drop paper, sand drop amounts adjusted
+ - Removed the following changed recipes:
+ -- Smelting or blasting smooth quartz to iron nuggets
+ -- Crafting crying obsidian
+ - Stone swords dropped by wither skeletons will inflict the wither effect
+ -- To fix an issue this could cause, wither skeletons will no longer pick up stone swords from the ground
+ - Added version number to pack.mcmeta
+
 v0.2.13 (04/22/2025):
  - Various text and resource pack fixes, including some new placeholder textures for salad and mechanized building arm
  - Nerfed mechanized building arm durability to 96

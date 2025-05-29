@@ -1,0 +1,1 @@
+execute as @e[type=wither_skeleton] if items entity @s weapon.mainhand minecraft:stone_sword[!custom_data={"vvsst:wither_sword":true}] run item modify entity @s weapon.mainhand vvsst:set_wither_sword

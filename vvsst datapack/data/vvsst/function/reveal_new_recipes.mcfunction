@@ -6,7 +6,6 @@ recipe give @a vvsst:cobweb
 recipe give @a vvsst:crim_roots_to_dye
 recipe give @a vvsst:crim_wart_to_warped
 recipe give @a vvsst:crimson_nylium
-recipe give @a vvsst:crying_obsidian
 recipe give @a vvsst:experience_bottle
 recipe give @a vvsst:glow_berry_arrow
 recipe give @a vvsst:grass_block
@@ -17,8 +16,6 @@ recipe give @a vvsst:mycelium
 recipe give @a vvsst:nether_sprouts_to_dye
 recipe give @a vvsst:netherite_to_dye
 recipe give @a vvsst:podzol
-recipe give @a vvsst:quartz_to_iron
-recipe give @a vvsst:quartz_to_iron_blasting
 recipe give @a vvsst:red_mushroom_block
 recipe give @a vvsst:smelting_dark_prismarine
 recipe give @a vvsst:smoke_chorus

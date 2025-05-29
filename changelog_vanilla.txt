@@ -14,7 +14,7 @@ New function commands:
  - /function vvsst:warp/test_dim
  -- Teleports player to a test dimension consisting of only a flat layer of barrier blocks
 
-Tag changes (not including anything listed under recipes):
+Tag changes (not including anything listed in other sections):
  - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss
  - Beacons are now mined faster with a pickaxe (fix MC-171534)
 
@@ -38,6 +38,7 @@ Changed recipes:
  - Stone tools now accept most types of stone
  -- In addition to cobblestone, cobbled deepslate, and blackstone, the following can be used: Raw stone, raw deepslate, granite, diorite, andesite, calcite, dripstone, and tuff
  - Blast furnace recipe accepts tuff as an alternative to smooth stone (should be interchangable, doublecheck?)
+ - Azure bluets, oxeye daisies, and white tulips craft white dye instead of light gray dye
 
 New recipes:
  - Bonemeal and blaze powder can be crafted back into bones and blaze rods
@@ -50,12 +51,10 @@ New recipes:
  - Mycelium can be made with dirt and mushrooms
  - Podzol can be made with grass blocks, mycelium, and spruce leaves
  - Nylium can be made with netherrack and the respective nether vegetation
- - Crying obsidian can be made with obsidian and lapis lazuli
  - Bottles o' enchanting can be made with empty bottles and echo shards
  - Spectral arrows can alternatively be made with glow berries
  - Honeycomb can be smelted to make yellow dye
  - Mangrove roots can be made into mangrove wood
- - Smelt or blast smooth quartz blocks a second time to extract trace amounts of iron and generate a relatively high amount of experience
  - Prismarine can be smelted into dark prismarine
  - Soul sand and soul soil can be converted between each other
  - Soul soil can be smelted into basalt
@@ -83,17 +82,15 @@ New advancements:
 
 Changed entity loot tables:
  - Creepers will always drop a random leaves block when killed by a player
- - Bats can drop flint
  - Blazes also drop a handful of iron nuggets
- - Cave spiders can rarely drop Disk 11
- - Endermites can drop popped chorus fruit
- - Husks can drop paper or sand
- - Ocelots can drop jungle leaves
+ - Husks can drop sand
  - Piglin brutes will drop a gold block if killed by a player
- - Silverfish can drop gravel, and rarely an emerald
  - Removed sniffer drops have been readded (moss blocks)
  - Removed goat drops have been readded (mutton)
  - Wardens will drop echo shards if killed with looting, and a warden head if killed by a player
+ - Stone swords obtained from wither skeletons will inflict the wither effect when used as a weapon
+ -- As a side effect, wither skeletons will now refuse to pick up dropped stone swords. This is to prevent them from picking up highly enchanted swords and overwriting the enchantments on them
+ -- Note: this isn't technically a loot table change but it relates to entity drops so it gets to go in this section
 
 Changed block loot tables:
  - Budding amethyst drops a bunch of amethyst shards
@@ -107,9 +104,6 @@ Changed container loot tables:
  - Shipwreck map chests can contain spyglasses
  - Ruined portal chests can contain nether bricks (the item, not the block)
  - Cold seafloor archaeology can have a trident extremely rarely
- - The following loot tables have been given extremely rare, unfinished weapons: desert temple chests, desert temple archaeology, desert well archaeology, vault reward unique (replacing trident), end city treasure, bastion other, nether fortress, pillager outpost, and jungle temple chest
- -- Most of these items are not currently functional and all of them are WIP
- -- See work in progress changes for more
  - Ancient city chests have much higher level enchanted books, large quantities of chiseled deepslate, unique potions of haste, and highly enchanted shears
  -- As a side effect of the method used for the enchanted shears, any shears obtained from an ancient city chest and disenchanted at a grindstone will be allowed to be reenchanted in an enchantment table (enchantability stat of 1), unlike normal shears
 
@@ -140,7 +134,7 @@ Work in progress changes:
  - Most new recipes need to be sorted into categories and groups
  - Empty containers in structures should have barebones loot tables (partially done with woodland mansions)
  - Infested stone should drop gravel
- - Rare weapon drops need to be finished. Only the pride of the piglins crossbow is currently functional
+ - Rare weapon drops need to be either finished or fully scrapped. Only the pride of the piglins crossbow is currently functional
  - Unobtainable emerald pickaxe item that may be added to loot tables once finished
  - New enchantment Infernal Marauder: mobs drop bonus experience while the player is on fire
  -- As of 24w36a this is not currently possible the straightforward way and a workaround may need to be found
@@ -153,7 +147,7 @@ Removed changes that may eventually be reconsidered:
  -- Removed due to cheaper recipe compared to regular bookshelves
  - One set of twelve end portal frames could be crafted with the dragon egg
  - Spawners were obtainable in survival:
- -- Pig spawn eggs could be made with a heavy cost and crafted into pig spawners
+ -- Pig spawn eggs could be made with a heavy cost (netherite) and crafted into pig spawners
  -- Any spawners findable in normal survival could have their spawn eggs made using a totem of undying
  -- A few other spawn eggs could be dropped from vexes: drowned, endermen, and guardians
  - Offhand attribute charms:
@@ -161,3 +155,12 @@ Removed changes that may eventually be reconsidered:
  -- One granted max health and armor toughness
  -- One boosted speed and was supposed to boost jump height as well
  - Readded pre-1.8 enchanted golden apple recipe
+ - Crying obsidian could be made with obsidian and lapis lazuli
+ - Smooth quartz blocks could be smelted/blasted a second time to extract trace amounts of iron and generate a relatively high amount of experience
+ - Cave spiders could rarely drop Disk 11
+ - Endermites could drop popped chorus fruit
+ - Ocelots could drop jungle leaves
+ - Bats could drop flint
+ - Silverfish could drop gravel, and rarely an emerald
+ - A number of chest loot tables had been given rare, unfinished items:
+ -- desert temple chests, desert temple archaeology, desert well archaeology, vault reward unique (replacing trident), end city treasure, bastion other, nether fortress, pillager outpost, and jungle temple chest
