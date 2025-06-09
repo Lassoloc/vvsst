@@ -2,10 +2,6 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:enchantments": {
-        "vvsst:withering": 1
-      },
-      "minecraft:enchantment_glint_override": false,
       "minecraft:custom_data": {
         "vvsst:wither_sword": true
       }

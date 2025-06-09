@@ -1,6 +1,15 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.3.2 (06/09/2025):
+ - Fix Mech Arm not correctly losing durability
+
+v0.3.1 (06/08/2025):
+ - Wither skeleton swords now have an enchantment glint and will not have any other enchantments overridden when Withering is applied
+ - Added Penetrating enchantment for bows and crossbows
+ - Correctly removed placeholder sub-loot table from trial vault unique loot table
+ - Replaced tridents in standard trial vaults with Penetrating books of a random level
+
 v0.3.0 (05/29/2025):
  - All flowers that craft light gray dye now make white dye instead
  - Removed the following changed loot tables:

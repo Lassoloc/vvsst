@@ -22,14 +22,20 @@ Enchantment changes and additions:
  - Shields now accept Thorns at an anvil
  - Shears now accept Silk Touch at an anvil (or enchantment table under the right circumstances, see changed container loot tables for more)
  - Maces, tridents, bows, and crossbows now accept Looting at an anvil, and axes can receive it from enchantment tables
- - New enchantment, Life Vest
+ - New enchantment, Life Vest (max level: 1)
  -- Only applies to chestplates
  -- Chance to grant absorption after being hit
- - New enchantment, Divebomber
+ - New enchantment, Divebomber (max level: 4)
  -- Only applies to elytra
  -- Grants bonus attack damage while in a flying state
- - New armor curse, Famine
+ - New armor curse, Famine (max level: 1)
  -- Chance to sap hunger when wearer is hit
+ - New enchantment, Withering (max level: 1)
+ -- Only obtained on stone swords dropped by wither skeletons
+ -- As a side effect, wither skeletons will now refuse to pick up dropped stone swords they didn't spawn with\
+ - New treasure enchantment, Penetrating (max level: 2)
+ -- Only applies to bows and crossbows
+ -- Fired arrows ignore a percentage of armor
 
 Changed recipes:
  - Lever recipe makes 3 levers instead of 1
@@ -88,9 +94,6 @@ Changed entity loot tables:
  - Removed sniffer drops have been readded (moss blocks)
  - Removed goat drops have been readded (mutton)
  - Wardens will drop echo shards if killed with looting, and a warden head if killed by a player
- - Stone swords obtained from wither skeletons will inflict the wither effect when used as a weapon
- -- As a side effect, wither skeletons will now refuse to pick up dropped stone swords. This is to prevent them from picking up highly enchanted swords and overwriting the enchantments on them
- -- Note: this isn't technically a loot table change but it relates to entity drops so it gets to go in this section
 
 Changed block loot tables:
  - Budding amethyst drops a bunch of amethyst shards
@@ -106,6 +109,7 @@ Changed container loot tables:
  - Cold seafloor archaeology can have a trident extremely rarely
  - Ancient city chests have much higher level enchanted books, large quantities of chiseled deepslate, unique potions of haste, and highly enchanted shears
  -- As a side effect of the method used for the enchanted shears, any shears obtained from an ancient city chest and disenchanted at a grindstone will be allowed to be reenchanted in an enchantment table (enchantability stat of 1), unlike normal shears
+ - Tridents in trial vaults are replaced with enchanted books containing the new Penetrating enchantment at a random level
 
 New structures:
  - Small mushroom huts can generate in mushroom biomes

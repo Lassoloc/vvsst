@@ -26,8 +26,14 @@
           "weight": 2
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "vvsst:items/soul_knife"
+          "type": "minecraft:item",
+          "name": "book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "vvsst:penetrating"
+            }
+          ]
         }
       ]
     }

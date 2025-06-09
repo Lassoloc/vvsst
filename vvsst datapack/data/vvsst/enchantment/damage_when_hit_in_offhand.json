@@ -29,8 +29,8 @@
         "enchanted": "victim",
         "affected": "victim",
         "effect": {
-          "type": "minecraft:run_function",
-          "function": "vvsst:enchantment/damage_offhand"
+          "type": "minecraft:change_item_damage",
+          "amount": 1
         }
       }
     ]
