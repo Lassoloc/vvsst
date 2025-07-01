@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "barrier"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Placeholder",
+                "color": "green"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "This loot table isn't finished yet!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "When it is, run the following command",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "and throw out this item:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "/loot give @s loot vvsst:bedrock_pillar",
+                  "color": "yellow",
+                  "italic": true,
+                  "underlined": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "vvsst:bedrock_pillar"
+}

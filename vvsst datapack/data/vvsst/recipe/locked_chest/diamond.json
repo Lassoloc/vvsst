@@ -9,10 +9,28 @@
   "result": {
     "id": "minecraft:chest",
     "components": {
-      "minecraft:lock": {"items":"minecraft:diamond"},
+      "minecraft:lock": {
+        "items": "minecraft:diamond"
+      },
       "minecraft:lore": [
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
-        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:diamond\"}"
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:diamond"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:diamond"
+          }
+        }
       ]
     }
   }

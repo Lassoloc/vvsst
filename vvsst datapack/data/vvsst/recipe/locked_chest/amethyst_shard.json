@@ -9,10 +9,28 @@
   "result": {
     "id": "minecraft:chest",
     "components": {
-      "minecraft:lock": {"items":"minecraft:amethyst_shard"},
+      "minecraft:lock": {
+        "items": "minecraft:amethyst_shard"
+      },
       "minecraft:lore": [
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
-        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:amethyst_shard\"}"
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:amethyst_shard"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:amethyst_shard"
+          }
+        }
       ]
     }
   }

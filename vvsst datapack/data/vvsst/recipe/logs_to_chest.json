@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest",
+  "pattern": [
+    "A  ",
+    "   ",
+    "  A"
+  ],
+  "key": {
+    "A": "#minecraft:logs"
+  },
+  "result": {
+    "id": "minecraft:chest"
+  }
+}

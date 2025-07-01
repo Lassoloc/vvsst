@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:quartz_block"
+    "#vvsst:quartz_blocks"
   ],
   "result": {
     "id": "minecraft:quartz",

@@ -1,7 +1,8 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.vvsst.penetrating_arrows"
+    "translate": "enchantment.vvsst.penetrating_arrows",
+    "fallback": "penetrating_arrows"
   },
   "effects": {
     "minecraft:armor_effectiveness": [

@@ -1,0 +1,1 @@
+$data modify storage vvsst:world/info $(cat) set value "$(text)"

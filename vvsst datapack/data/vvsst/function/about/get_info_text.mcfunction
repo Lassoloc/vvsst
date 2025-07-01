@@ -1,0 +1,12 @@
+execute as @s run data get storage vvsst:world/info 1
+execute as @s run data get storage vvsst:world/info 2
+execute as @s run data get storage vvsst:world/info 3
+execute as @s run data get storage vvsst:world/info 4
+execute as @s run data get storage vvsst:world/info 5
+execute as @s run data get storage vvsst:world/info 6
+execute as @s run data get storage vvsst:world/info 7
+execute as @s run data get storage vvsst:world/info 8
+execute as @s run data get storage vvsst:world/info 9
+execute as @s run data get storage vvsst:world/info 10
+execute as @s run data get storage vvsst:world/info 11
+execute as @s run data get storage vvsst:world/info 12

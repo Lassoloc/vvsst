@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": "Looks like you had a good ",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Dream",
+                        "italic": true
+                      }
+                    ],
+                    "color": "gold"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:fortune": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

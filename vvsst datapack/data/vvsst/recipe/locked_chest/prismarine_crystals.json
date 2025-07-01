@@ -9,10 +9,28 @@
   "result": {
     "id": "minecraft:chest",
     "components": {
-      "minecraft:lock": {"items":"minecraft:prismarine_crystals"},
+      "minecraft:lock": {
+        "items": "minecraft:prismarine_crystals"
+      },
       "minecraft:lore": [
-        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Lock: \"}",
-        "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"minecraft:prismarine_crystals\"}"
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:prismarine_crystals"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:prismarine_crystals"
+          }
+        }
       ]
     }
   }

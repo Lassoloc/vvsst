@@ -14,7 +14,6 @@ recipe give @a vvsst:mangrove_roots_to_wood
 recipe give @a vvsst:mushroom_stem
 recipe give @a vvsst:mycelium
 recipe give @a vvsst:nether_sprouts_to_dye
-recipe give @a vvsst:netherite_to_dye
 recipe give @a vvsst:podzol
 recipe give @a vvsst:red_mushroom_block
 recipe give @a vvsst:smelting_dark_prismarine
@@ -51,46 +50,11 @@ recipe give @a vvsst:stonecut_dripstone_to_pointed
 recipe give @a vvsst:stonecut_stone_to_cobble
 recipe give @a vvsst:salad
 recipe give @a vvsst:mechanized_building_arm
-recipe give @a vvsst:locked_chest/amethyst_shard
-recipe give @a vvsst:locked_chest/black_dye
-recipe give @a vvsst:locked_chest/blue_dye
-recipe give @a vvsst:locked_chest/brown_dye
-recipe give @a vvsst:locked_chest/cyan_dye
-recipe give @a vvsst:locked_chest/diamond
-recipe give @a vvsst:locked_chest/firework_star
-recipe give @a vvsst:locked_chest/gray_dye
-recipe give @a vvsst:locked_chest/green_dye
-recipe give @a vvsst:locked_chest/light_blue_dye
-recipe give @a vvsst:locked_chest/light_gray_dye
-recipe give @a vvsst:locked_chest/lime_dye
-recipe give @a vvsst:locked_chest/magenta_dye
-recipe give @a vvsst:locked_chest/orange_dye
-recipe give @a vvsst:locked_chest/pink_dye
-recipe give @a vvsst:locked_chest/prismarine_crystals
-recipe give @a vvsst:locked_chest/purple_dye
-recipe give @a vvsst:locked_chest/red_dye
-recipe give @a vvsst:locked_chest/white_dye
-recipe give @a vvsst:locked_chest/yellow_dye
-recipe give @a vvsst:locked_chest/angler_pottery_sherd
-recipe give @a vvsst:locked_chest/archer_pottery_sherd
-recipe give @a vvsst:locked_chest/arms_up_pottery_sherd
-recipe give @a vvsst:locked_chest/blade_pottery_sherd
-recipe give @a vvsst:locked_chest/brewer_pottery_sherd
-recipe give @a vvsst:locked_chest/burn_pottery_sherd
-recipe give @a vvsst:locked_chest/danger_pottery_sherd
-recipe give @a vvsst:locked_chest/explorer_pottery_sherd
-recipe give @a vvsst:locked_chest/flow_pottery_sherd
-recipe give @a vvsst:locked_chest/friend_pottery_sherd
-recipe give @a vvsst:locked_chest/guster_pottery_sherd
-recipe give @a vvsst:locked_chest/heart_pottery_sherd
-recipe give @a vvsst:locked_chest/heartbreak_pottery_sherd
-recipe give @a vvsst:locked_chest/howl_pottery_sherd
-recipe give @a vvsst:locked_chest/miner_pottery_sherd
-recipe give @a vvsst:locked_chest/mourner_pottery_sherd
-recipe give @a vvsst:locked_chest/plenty_pottery_sherd
-recipe give @a vvsst:locked_chest/prize_pottery_sherd
-recipe give @a vvsst:locked_chest/scrape_pottery_sherd
-recipe give @a vvsst:locked_chest/sheaf_pottery_sherd
-recipe give @a vvsst:locked_chest/shelter_pottery_sherd
-recipe give @a vvsst:locked_chest/skull_pottery_sherd
+recipe give @a vvsst:logs_to_chest
+recipe give @a vvsst:cut_unpack_bricks
+recipe give @a vvsst:cut_unpack_nether_bricks
+
+function vvsst:recipe/reveal_easter_eggs
+function vvsst:recipe/reveal_locked_chests
+
 tellraw @a {"bold":true,"click_event":{"action":"suggest_command","command":"/function vvsst:reveal_new_recipes"},"color":"green","hover_event":{"action":"show_text","value":[{"text":"","color":"yellow"}]},"text":"VVSST: Unlocked all new recipes"}

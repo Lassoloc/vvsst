@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:blade_pottery_sherd"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {
+        "items": "minecraft:blade_pottery_sherd"
+      },
+      "minecraft:lore": [
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:blade_pottery_sherd"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:blade_pottery_sherd"
+          }
+        }
+      ]
+    }
+  }
+}

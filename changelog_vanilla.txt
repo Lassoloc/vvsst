@@ -13,9 +13,12 @@ New function commands:
  -- Currently assumes minecraft: namespace, meaning it doesn't work with modded items.
  - /function vvsst:warp/test_dim
  -- Teleports player to a test dimension consisting of only a flat layer of barrier blocks
+ - Partially implemented new unfinished "about this world" commands: functions exist to write arbitrary strings to storage, write gamerule values to storage, and read these storage banks
+ -- New functions are /function vvsst:about/refresh_gamerule_storage, /function vvsst:about/set_info_text, and /function vvsst:about/get_info_text
+ -- Documentation will be added as the functions are finished
 
 Tag changes (not including anything listed in other sections):
- - The following don't block off bookshelves from enchantment tables: signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss
+ - The following don't block off bookshelves from enchantment tables: any blocks considered "replaceable", signs, banners, buttons, levers, pressure plates, tripwire and hooks, coral plants and fans, torches, ladders, all vines, all flowers, flower pots, wool and moss carpets, candles, scaffolding, sculk veins, lily pads, amethyst crystals, snow layers, resin clumps, and pale hanging moss
  - Beacons are now mined faster with a pickaxe (fix MC-171534)
 
 Enchantment changes and additions:
@@ -32,10 +35,14 @@ Enchantment changes and additions:
  -- Chance to sap hunger when wearer is hit
  - New enchantment, Withering (max level: 1)
  -- Only obtained on stone swords dropped by wither skeletons
- -- As a side effect, wither skeletons will now refuse to pick up dropped stone swords they didn't spawn with\
+ -- As a side effect, wither skeletons will now refuse to pick up dropped stone swords they didn't spawn with
  - New treasure enchantment, Penetrating (max level: 2)
  -- Only applies to bows and crossbows
  -- Fired arrows ignore a percentage of armor
+ - New treasure enchantment, Astral Barrier (max level: 1)
+ -- Applies to any armor, functions like Protection but only against damage types witches are resistant to
+ -- Compatible with all other Protection enchantments
+ -- Can only be obtained from illager evokers (see below)
 
 Changed recipes:
  - Lever recipe makes 3 levers instead of 1
@@ -45,6 +52,7 @@ Changed recipes:
  -- In addition to cobblestone, cobbled deepslate, and blackstone, the following can be used: Raw stone, raw deepslate, granite, diorite, andesite, calcite, dripstone, and tuff
  - Blast furnace recipe accepts tuff as an alternative to smooth stone (should be interchangable, doublecheck?)
  - Azure bluets, oxeye daisies, and white tulips craft white dye instead of light gray dye
+ - Chain recipe makes 3 chains instead of 1
 
 New recipes:
  - Bonemeal and blaze powder can be crafted back into bones and blaze rods
@@ -66,7 +74,7 @@ New recipes:
  - Soul soil can be smelted into basalt
  - Totems of undying can be crafted in sets of four with emerald blocks, gold blocks, and a nether star
  - Torches and lanterns can be turned into soul torches and soul lanterns after being crafted
- - Blue ice, packed ice, melon blocks, quartz blocks, honeycomb blocks, bamboo blocks, and wool can be unpacked
+ - Blue ice, packed ice, melon blocks, all types of quartz blocks, honeycomb blocks, bamboo blocks, and all types of wool can be unpacked
  -- Amethyst, magma, and nether wart will remain un-unpackable
  -- Brick blocks and nether brick blocks can be unpacked in the stonecutter
  - Any type of vines (standard, crimson, and warped) can be woven into string
@@ -74,26 +82,30 @@ New recipes:
  - Stonecutter can turn cobblestone into gravel
  - Stonecutter can turn gravel into sand
  - Stonecutter can turn dripstone blocks into pointed dripstone, albeit at half unpacking efficiency
- - Logs can be crafted directly into sticks
+ - Logs can be crafted directly into sticks or chests
  - Raw ore blocks can be smelted/blasted, which takes 9 times as long and gives 9 times the experience
  - Leaves and a bowl makes a brand new item: salad!
  - Bamboo mosaic blocks can be used as wooden planks in any recipe
  - A chest can be crafted with another item to lock that chest, only allowing it to be opened with the matching item
- -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, all pottery sherds, and all dyes. This will be expanded upon in the future
+ -- Currently only works with prismarine crystals, diamonds, amethyst shards, firework stars, both types of trial keys, all pottery sherds, all dyes, and all music discs. This will be expanded upon in the future
+ -- The item used to lock the chest is returned inside the chest
  - A new item, the Mechanized Building Arm, can be crafted. It increases block reach and mining speed when held in the offhand, at the cost of losing a heart and a half from your max health.
- -- The MBA has 96 durability, and loses 1 point whenever you take damage from a direct attack with it equipped
+ -- The MBA has 96 durability, and loses 1 point whenever you take damage from a direct attack with it equipped (any attack that will proc Thorns)
 
 New advancements:
  - Thalassophobia: Kill three elder guardians
 
 Changed entity loot tables:
  - Creepers will always drop a random leaves block when killed by a player
- - Blazes also drop a handful of iron nuggets
+ - Blazes have a chance to drop a handful of iron nuggets when killed by a player
  - Husks can drop sand
  - Piglin brutes will drop a gold block if killed by a player
  - Removed sniffer drops have been readded (moss blocks)
  - Removed goat drops have been readded (mutton)
  - Wardens will drop echo shards if killed with looting, and a warden head if killed by a player
+ - Evokers will additionally drop an enchanted book on death
+ -- 75% chance to be a random book and 25% chance to be Astral Barrier (see above)
+ - Iron golems will drop useless dross instead of iron ingots when killed by fire, though a single ingot may be recovered
 
 Changed block loot tables:
  - Budding amethyst drops a bunch of amethyst shards
@@ -104,12 +116,27 @@ Changed container loot tables:
  - Arrows in jungle temple dispensers can be poison tipped
  - Woodland mansion chests now contain various dark oak items, and can contain diamonds and emeralds
  - The various empty chests found in woodland mansions have been filled with a new loot table for the storage rooms and a handful of mushrooms for the mushroom farm room
+ -- Note: the mushroom farm room uses fixed chest contents rather than a loot table
+ - Barrels, furnaces, blast furnaces, smokers, brewing stands, and lecterns in villages now contain items rather than being completely empty
+ -- Note: All containers except chests and barrels use fixed container contents as the other container types don't support loot tables
+ -- A handful of these containers are intentionally left empty, primarily lecterns and brewing stands
  - Shipwreck map chests can contain spyglasses
  - Ruined portal chests can contain nether bricks (the item, not the block)
  - Cold seafloor archaeology can have a trident extremely rarely
  - Ancient city chests have much higher level enchanted books, large quantities of chiseled deepslate, unique potions of haste, and highly enchanted shears
  -- As a side effect of the method used for the enchanted shears, any shears obtained from an ancient city chest and disenchanted at a grindstone will be allowed to be reenchanted in an enchantment table (enchantability stat of 1), unlike normal shears
+ - Trial chamber supply chests have shears added to the loot table, with a low chance of being enchanted with Efficiency
  - Tridents in trial vaults are replaced with enchanted books containing the new Penetrating enchantment at a random level
+ - Ominous trial vaults can give ender pearls as a common reward
+
+Changed gameplay loot tables:
+ - Phantom membranes have been added as very rare fishing junk, with bowls being made slightly rarer to compensate
+ - Fishing in any type of ocean biome can give prismarine shards as junk loot
+ - Saddles in fishing treasure have been replaced with coast armor trim templates
+ -- This may be replaced with a custom armor trim later
+
+Changed structures:
+ - Ocean monuments are now much rarer
 
 New structures:
  - Small mushroom huts can generate in mushroom biomes
@@ -133,16 +160,15 @@ Known bugs:
  - The Mechanized Building Arm is considered a golden pickaxe under the hood. This means that crafting it increments the stat for golden pickaxes crafted, and it is treated like a golden pickaxe for smelting and repairing purposes
  - Haste potions may sometimes fail to apply components and generate as plain water bottles
 
-Work in progress changes:
+Work in progress / planned changes:
  - Small prismarine spikes feature should be added to deep ocean floors
  - Most new recipes need to be sorted into categories and groups
  - Empty containers in structures should have barebones loot tables (partially done with woodland mansions)
  - Infested stone should drop gravel
- - Rare weapon drops need to be either finished or fully scrapped. Only the pride of the piglins crossbow is currently functional
- - Unobtainable emerald pickaxe item that may be added to loot tables once finished
  - New enchantment Infernal Marauder: mobs drop bonus experience while the player is on fire
  -- As of 24w36a this is not currently possible the straightforward way and a workaround may need to be found
  - New enchantment Spirit Infusion: applied to horse armor, temporarily grants massive buffs to the rider if the horse dies
+ - Shulker armor?
 
 Removed changes that may eventually be reconsidered:
  - Pink petals made replaceable
@@ -166,5 +192,6 @@ Removed changes that may eventually be reconsidered:
  - Ocelots could drop jungle leaves
  - Bats could drop flint
  - Silverfish could drop gravel, and rarely an emerald
- - A number of chest loot tables had been given rare, unfinished items:
+ - A number of chest loot tables had been given rare, unfinished items (these were only obtainable as non-functional placeholder items):
  -- desert temple chests, desert temple archaeology, desert well archaeology, vault reward unique (replacing trident), end city treasure, bastion other, nether fortress, pillager outpost, and jungle temple chest
+ - Unfinished, unobtainable emerald pickaxe item that had illegal levels of Fortune

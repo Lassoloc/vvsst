@@ -1,6 +1,49 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
+v0.4.0 (06/xx/2025):
+[Gameplay]
+ - Updated to 1.21.7, dropped support for 1.21.5
+ - Made ocean monuments much rarer (spacing/separation 72/24 rather than 32/5)
+ - Smooth quartz, quartz pillars, quartz bricks, and chiseled quartz can now be unpacked
+ - Added recipe to craft chests directly from logs
+ - Changed chain recipe output quantity to 3
+ - Added shears to trial chamber supply chests
+ - Added ender pearls to ominous trial vault common rewards
+ - Adjusted how blazes drop nuggets again
+ -- The quantity is now higher but is no longer guaranteed, the chance going up with Looting
+ -- Nuggets are now only dropped on player kills
+ - Iron golems drop much less iron when killed by fire damage sources
+ -- This is any damage type that Fire Resistance provides immunity to: fire blocks, lava, campfires, magma blocks, burning, and direct hits from fire charges
+ -- They will instead drop a new useless "charred dross" item in place of the ingots. Each dross item has a 2/9 chance to be an ingot instead, but only up to a max of 1 (test?)
+ - Added rare phantom membranes to fishing junk loot table, slightly reducing the weight of bowls to compensate
+ - Added 1-8 prismarine shards to fishing junk loot table when fishing in any biome that is considered an ocean
+ - Replaced saddles in fishing treasure loot table with coast armor trim smithing templates
+ - Added Astral Barrier enchantment for armor
+ - Evokers now have a 25% chance to drop an Astral Barrier book, otherwise dropping any random enchanted book
+ - Chests can now be locked with any music disc and both types of trial keys
+ - Locked chests now contain the item that was used to lock them
+ - Slightly adjusted 1x2_a7 chest contents (replaced one mushroom of each type with coarse dirt)
+ - Filled most empty containers in villages (loot tables for the barrels, set items for other containers)
+[Technical]
+ - Partially added a new set of functions to form an "about this world" command
+ -- /function vvsst:about/set_info_text
+ --- Requires two macro keys: cat (a value from 1-12) and text (a string)
+ --- Example: /function vvsst:about/set_info_text {cat:4,text:"This world uses Nullscape for terrain generation in the End"}
+ -- /function vvsst:about/get_info_text
+ --- Prints all info text set to your chat (client-side, not server-side)
+ -- /function vvsst:about/refresh_gamerule_storage
+ --- Writes all gamerule values to storage, with the exception of minecartMaxSpeed
+ --- Runs automatically on reload
+ -- /function vvsst:about/print_gamerule_values
+ --- Unfinished, prints all gamerule values from storage to your chat (note that the current formatting is nearly unintelligible)
+ - Changed how some recipes and loot tables are sorted
+ - Deleted broken and unfinished custom weapon loot tables
+ - Correctly removed placeholder sub-loot table from desert temple and desert well archaeology loot table
+ - Added loot tables for more custom items that didn't have them
+ - Fixed broken lore text for some custom items
+ - /function reveal_new_recipes now correctly reveals recipes for cooked blast furnace, bricks from stonecutting, and nether bricks from stonecutting
+
 v0.3.2 (06/09/2025):
  - Fix Mech Arm not correctly losing durability
 

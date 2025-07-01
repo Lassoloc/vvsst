@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:music_disc_lava_chicken"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {
+        "items": "minecraft:music_disc_lava_chicken"
+      },
+      "minecraft:lore": [
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:music_disc_lava_chicken"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:music_disc_lava_chicken"
+          }
+        }
+      ]
+    }
+  }
+}

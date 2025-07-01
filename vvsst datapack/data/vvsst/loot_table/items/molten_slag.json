@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{\"vvsst:molten_slag\":1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Smoldering Dross"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "!minecraft:food": {},
+                "minecraft:item_model": "vvsst:molten_slag"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

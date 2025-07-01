@@ -41,22 +41,9 @@
           "weight": 200
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:ender_eye",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:lore": [
-                  "{\"text\":\"Looks like you had a good Dream\",\"color\":\"gold\",\"italic\":false}"
-                ],
-                "minecraft:enchantments": {
-                  "minecraft:fortune": 1
-                }
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "vvsst:items/easter_egg/dream_eye",
+          "weight": 3
         }
       ]
     }

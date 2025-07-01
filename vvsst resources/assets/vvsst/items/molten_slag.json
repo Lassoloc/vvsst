@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blue_dye",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 3675408
+          }
+        ]
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pumpkin_seeds",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 1051660
+          }
+        ]
+      }
+    ]
+  },
+  "hand_animation_on_swap": true
+}

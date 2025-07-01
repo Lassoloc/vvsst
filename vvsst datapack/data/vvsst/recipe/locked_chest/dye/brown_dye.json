@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "locked_chest",
+  "ingredients": [
+    "minecraft:chest",
+    "minecraft:brown_dye"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "components": {
+      "minecraft:lock": {
+        "items": "minecraft:brown_dye"
+      },
+      "minecraft:lore": [
+        {
+          "color": "gray",
+          "italic": false,
+          "text": "Lock: "
+        },
+        {
+          "color": "light_purple",
+          "italic": false,
+          "text": "minecraft:brown_dye"
+        }
+      ],
+      "minecraft:container": [
+        {
+          "slot": 13,
+          "item": {
+            "id": "minecraft:brown_dye"
+          }
+        }
+      ]
+    }
+  }
+}

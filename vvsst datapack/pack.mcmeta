@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 71,
+    "pack_format": 81,
     "description": {
-      "text": "[0.3.2] ivy's vanilla-style survival tweaks",
+      "text": "[0.4.0] ivy's vanilla-style survival tweaks",
       "color": "gold"
     }
   }
