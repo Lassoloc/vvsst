@@ -1,7 +1,7 @@
 == VVSST changelog between versions ==
 For more details, read the changelog as compared to unmodified vanilla.
 
-v0.4.0 (06/xx/2025):
+v0.4.0 (07/01/2025):
 [Gameplay]
  - Updated to 1.21.7, dropped support for 1.21.5
  - Made ocean monuments much rarer (spacing/separation 72/24 rather than 32/5)
